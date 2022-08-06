@@ -14,7 +14,7 @@ h1{
 .display-flex{
     display: flex;
     margin-bottom: 150px;
-    margin-left:;
+    
     
 }
 .half-width{
@@ -38,6 +38,9 @@ h1{
 .top-banner{
     background-image:url(images/top-banner.png);
     background-repeat: no-repeat;
+    margin-top: 0;
+    
+    padding-bottom: 10px;
     
 }
 .dream-big{
@@ -85,4 +88,20 @@ footer{
 
     height: 100px;
 
+}
+ul{
+    display: flex;
+}
+li {
+    list-style:none ;
+    margin-left: 20%;
+    padding: 10px 40px;
+    
+   
+}
+
+
+li:hover{
+    background-image: linear-gradient(orange, salmon); 
+    border-radius: 5px;
 }
